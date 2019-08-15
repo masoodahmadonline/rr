@@ -3,9 +3,9 @@
 export const rootComp = (props) => {
   return (
     <div>
-      hhh
+
       {/*<ShowErrors />*/}
-      <h1>hi</h1>
+      <h1>this is root</h1>
     </div>
   );
 };

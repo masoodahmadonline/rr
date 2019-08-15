@@ -16,10 +16,7 @@ export const api = (url, params) => {
 let securityObject = window.securityObject;
 // window.securityObject = securityInfo;
 let headers = {
-  "Authorization" : "Bearer "+ `${securityObject.token}`,
-  "orgId"         : securityObject.orgId,
-  "userId"        : securityObject.userId,
-  "userName"      : securityObject.userName
+  "Authorization" : "Bearer "+ `${securityObject.token}`
 };
 
 export const get = (url, params={}) => {

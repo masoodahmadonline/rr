@@ -1,16 +1,16 @@
-
-import {Route,BrowserRouter as Router} from "react-router-dom";
-import {showErrors as ShowErrors} from "./components/UtilComp/wiseMessageContainer";
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import {rootComp as Root} from "./components/root/rootComp";
-// let Route = Router;
+import React from "react";
 export const routes = () => (
 
   <Router>
     <div>
-      <ShowErrors />
-      {/*<Switch>*/}
+      <Switch>
+      <Route path="/other" component={() => <div>other</div>} />
+      <Route path="/other2" component={() => <div>other2</div>} />
       <Route path="/" component={Root} />
-      {/*</Switch>*/}
+      </Switch>
     </div>
   </Router>
 );
+
