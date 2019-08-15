@@ -5,5 +5,5 @@ import {routes as Routes} from "./routes";
 
 window.React = React;
 render(
-    <Routes/>,document.getElementById("react-container")
+  <Routes/>,document.getElementById("react-container")
 );

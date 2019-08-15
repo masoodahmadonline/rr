@@ -40,8 +40,7 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: "babel-loader",
-            options: babelOptions
+            loader: "babel-loader"
           },
           {
             loader: "eslint-loader",
