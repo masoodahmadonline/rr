@@ -1,0 +1,43 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "./node_modules/.bin/webpack-dev-server --mode development --open --progress --hot --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.4.9",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.14.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^3.0.0",
+    "prop-types": "^15.5.8",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-icons": "^2.2.5",
+    "react-router-config": "^1.0.0-beta.1",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
